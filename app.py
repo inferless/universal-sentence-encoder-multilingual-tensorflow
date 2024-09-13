@@ -5,7 +5,7 @@ import tensorflow_text
 
 class InferlessPythonModel:
     def initialize(self):
-        self.module = hub.load('https://tfhub.dev/google/universal-sentence-encoder-multilingual-qa/3')
+        self.module = hub.load('https://kaggle.com/models/google/universal-sentence-encoder/frameworks/TensorFlow1/variations/universal-sentence-encoder/versions/1')
 
     def infer(self, inputs):
         questions = inputs['questions']

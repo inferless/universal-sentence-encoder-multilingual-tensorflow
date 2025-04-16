@@ -3,7 +3,6 @@ Universal-Sentence-Encoder-Multilingual-QA is a model developed by researchers a
 
 ## TL;DR:
 - Deployment of Universal-Sentence-Encoder-Multilingual-QA model using [TensorFlow](https://github.com/tensorflow/tensorflow).
-- By using the Faster-Whisper, you can expect an average latency of 0.55 sec.
 - Dependencies defined in `inferless-runtime-config.yaml`.
 - GitHub/GitLab template creation with `app.py`, `inferless-runtime-config.yaml` and `inferless.yaml`.
 - Model class in `app.py` with `initialize`, `infer`, and `finalize` functions.
